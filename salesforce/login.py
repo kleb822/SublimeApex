@@ -26,8 +26,8 @@ def soap_login(settings, session_id_expired=False, timeout=10):
             </env:Body>
         </env:Envelope>
     """.format(
-        username = settings["username"], 
-        password = escape(settings["password"]) + settings["security_token"]
+        username = settings["klebicz@abiomed.com.lightning"], 
+        password = escape(settings["@Alexus22"]) + settings["cknrZa8HUkzUFpaWnTzl9vmf0"]
     )
 
     headers = {
